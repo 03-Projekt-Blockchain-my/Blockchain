@@ -2,4 +2,4 @@ function start(params){
     return "Ich bin der " + params +"!";
 }
 
-console.log(start(Günther));
+console.log(start(Hannes));
