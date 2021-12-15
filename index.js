@@ -1,5 +1,7 @@
-function start(params){
-    return "Ich bin der " + params +"!";
+let name;
+
+function test(name){
+    return "Ich bin der " + name +"!";
 }
 
-console.log(start(Hannes)); //Kommentar
+console.log(test("Hannes")); //Kommentar
