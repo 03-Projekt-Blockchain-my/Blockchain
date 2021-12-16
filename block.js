@@ -17,4 +17,4 @@ class Block{
     }
 }
 
-module.exports = block;
+module.exports = Block;
