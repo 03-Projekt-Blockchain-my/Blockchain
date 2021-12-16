@@ -1,6 +1,9 @@
 const Block = require ("./block");
 
-const block = new Block("time","hash1","hash2","mydata");
+//onst block = new Block("time","hash1","hash2","mydata");
 
 
-console.log(block.toString);
+//console.log(block.genesis().toString());
+
+const testBlock = Block.mineBlock(Block.genesis(),"test");
+console.log(testBlock.toString());
