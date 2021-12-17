@@ -10,7 +10,7 @@ const Blockchain = require("./blockchain");
 // 1. + 2. Block
 
 const chain = new Blockchain();
-
+chain.addBlock("50€ von boo");
 
 // 2. Block
 chain.addBlock("100€ an boo, 50$ von foo");
